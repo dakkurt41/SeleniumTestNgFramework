@@ -26,8 +26,35 @@ public class HomePage_SuperHero extends TestBase {
     @Test
     public void Test2() throws InterruptedException {
         lp.LoginHomePage(randomEmail(), randomPassword());
-
     }
+
+    @Test
+    public void Test3() throws InterruptedException {
+        lp.LoginHomePage(generateEmail4(), randomPassword());
+    }
+
+    @Test
+    public void Test4() throws InterruptedException {
+        lp.LoginHomePage(generateEmail5(10), generatePassword5(9));
+    }
+
+
+    @Test
+    public void Test5() throws InterruptedException {
+        lp.LoginHomePage(generateEmail6(7), generatePassword6(21));
+    }
+
+    @Test
+    public void Test6() throws InterruptedException {
+        lp.LoginHomePage(generateRandomEmail(11), generatePassword6(11));
+    }
+
+    @Test
+    public void Test7() throws InterruptedException {
+        lp.LoginHomePage(generateRandomEmail((int) (Math.random()*20)), generatePassword6((int) (Math.random()*20)));
+    }
+
+
 
 
 

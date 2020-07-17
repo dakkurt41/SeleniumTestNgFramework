@@ -53,6 +53,8 @@ tell me your framework , key for hiring
               set ,
               map
 
+         custom methods you can support from previous
+
          dynamic approach ,
           create a methods, parameter changing ,
             applicaable for most functionaliyt
