@@ -4,9 +4,11 @@ import com.github.javafaker.Faker;
 import com.mifmif.common.regex.Generex;
 import org.apache.commons.lang3.RandomStringUtils;
 
+import java.time.LocalDate;
 import java.time.ZonedDateTime;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.Random;
 import java.util.UUID;
 
 public class RandomGenerator {
@@ -155,6 +157,17 @@ public class RandomGenerator {
 
     public static String generateEmail8(){
         return String.format("example"+ZonedDateTime.now().toInstant().toEpochMilli()+"@gmail.com");
+    }
+
+
+    public static LocalDate RandomBirthDate(){
+        Random random = new Random();
+        int minDay = (int) LocalDate.of(2000, 1, 1).toEpochDay();
+        int maxDay = (int) LocalDate.of(2020, 1, 1).toEpochDay();
+        long randomDay = minDay + random.nextInt(maxDay - minDay);
+
+        LocalDate randomBirthDate = LocalDate.ofEpochDay(randomDay);
+        return randomBirthDate;
     }
 
 
