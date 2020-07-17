@@ -170,7 +170,26 @@ public class RandomGenerator {
         return randomBirthDate;
     }
 
+    // git remote -v
+    // git remote rename beanstalk origin
 
+//    METHOD1->
+//
+//    Since origin already exist remove it.
+//
+//    git remote rm origin
+//    git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+//
+//    METHOD3->
+//
+//    Use the git remote rename command to rename an existing remote. An existing remote name, for example, origin.
+//
+//    git remote rename origin startpoint
+//# Change remote name from 'origin' to 'startpoint'
+//    To verify remote's new name->
+//
+//    git remote -v
 
 
 
