@@ -45,7 +45,7 @@ public abstract class TestBase {
         extentReports.attachReporter(extentHtmlReporter);
         extentHtmlReporter.config().setReportName("HeroApp Test Results");
         //system information
-        String env = ConfigurationReader.getProperty("url");
+        String env = ConfigurationReader.getProperty("superHeroUrl");
         if (env_url != null) {
             env = env_url;
         }
@@ -65,7 +65,7 @@ public abstract class TestBase {
     @BeforeMethod
     @Parameters("env_url")
     public void setup(@Optional String env_url) {
-        String url = ConfigurationReader.getProperty("url");
+        String url = ConfigurationReader.getProperty("superHeroUrl");
         //if name parameter was set, then use it
         //if it's null that means it was not set
         if (env_url != null) {

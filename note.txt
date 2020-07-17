@@ -1,0 +1,82 @@
+
+New team
+  developer
+  Tester always changing
+
+  know team member
+  be good with develops
+
+  challenges commona
+    offshore india,
+             banga,
+             china
+    and onshore company 6
+
+
+    userstory one months ago complete , 3 year,
+        each 10 point demo, accept
+     3 points they accept  seach names
+    developer  from offshore, new
+     tester from onshore,
+
+    scrum, ba,
+
+     1- deveoplement - test and developers , ui, api, data,  batch job, etl testing, engine , promethouses
+
+      200 millyon dolar,  ui, dataase, api
+            2 years
+
+     3- product = tester  3 point
+     2- stage = tester
+
+backlog , 25 are still waiting
+
+
+tell me yours
+tell project , health
+tell me your framework , key for hiring
+
+    resuable methods
+        less code and clear code,
+         not repaeting code again again
+
+    some unique , why
+
+    Test you,
+
+
+
+    contritbute to our framework
+         collections logic ,
+              list, 15 differ,
+              arraylist
+              set ,
+              map
+
+         dynamic approach ,
+          create a methods, parameter changing ,
+            applicaable for most functionaliyt
+
+
+           data
+                hard coded,
+                string actual = "100"
+                string expected = data from ui,
+                generators , data creation , random data
+                testing
+
+
+           selenium grid, data base , api cucumber
+
+
+
+
+
+
+
+
+
+
+
+
+
