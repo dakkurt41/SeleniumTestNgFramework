@@ -4,10 +4,15 @@ import com.github.javafaker.Faker;
 import com.mifmif.common.regex.Generex;
 import org.apache.commons.lang3.RandomStringUtils;
 
+import java.time.ZonedDateTime;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.UUID;
 
 public class RandomGenerator {
 
+    public GregorianCalendar gcalendar = new GregorianCalendar();
+    public Date date = new Date();
 
 
     public static String getAlphaNumericString(int n) {
@@ -128,7 +133,29 @@ public class RandomGenerator {
     }
 
 
+    public static String generateEmail7(){
+        Date date = new Date();
+        //This method returns the time in millis
+        long timeMilli = date.getTime();
+        return String.format("sample"+timeMilli+"@gmail.com");
+        //sample234567894562gmail.com
+    }
 
+    public static String generatePassword7(){
+        Date date = new Date();
+        //This method returns the time in millis
+        long timeMilli = date.getTime();
+        return String.valueOf(timeMilli);
+        //234567892345
+    }
+    public static String generatePassword8(){
+        return String.valueOf(ZonedDateTime.now().toInstant().toEpochMilli());
+        //234567892345
+    }
+
+    public static String generateEmail8(){
+        return String.format("example"+ZonedDateTime.now().toInstant().toEpochMilli()+"@gmail.com");
+    }
 
 
 
